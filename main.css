@@ -1,0 +1,27 @@
+
+/*estilos para la tabla*/
+table th {
+    background-color: #172a3a !important;
+    color: #fff;
+}
+table>tbody>tr>td {
+    vertical-align: middle !important;
+}
+
+/*para alinear los botones y cuadro de busqueda*/
+.btn-group, .btn-group-vertical {
+    position: absolute !important;
+}
+body{
+    background-image: url(img/Naranja.jpg);
+    background-size: 100% 100%;
+    
+}
+tbody tr{
+    color: black;
+
+}
+table{
+    color: black;
+
+}
