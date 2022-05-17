@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lusitana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+*{
+	margin: 0;
+}
+/*
+Etiquetas*/
+.navbar{
+	background: #172a3a;
+	display: flex;
+	align-items: center;
+	padding-left: 25%;
+}
+.navbar-toggler{
+	background:orange;
+}
+
+
+body{
+	background-image: url(../img/Azul.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+article{
+	display: flex;
+}
+
+section{
+	/*background-image: url(../img/fish-black.jpg);*/
+	padding: 50px;
+	margin-bottom: 100px;
+	background-attachment: fixed;
+	color: white;
+	text-align: center;
+
+}
+
+section h1{
+	font-size: 40px;
+	font-weight: 900;
+    text-shadow: 3px 3px 3px black;
+	margin: 50px;
+}
+
+
+footer{
+ 
+	text-shadow: 3px 3px 3px black;
+	background: #172a3a;
+	padding: 10px;
+}
+
+/*
+clases*/
+.logo{
+	margin-right: 200px;
+}
+/*
+Quita lineas de los hipervínculos*/
+
+.nav-item a{
+	font-family: 'Exo', sans-serif;
+	padding: 0 20px;
+	color: orange;
+}
+
+.nav-item a:hover{
+	font-family: 'Exo', sans-serif;
+	font-size: 15px;
+	opacity: .7;
+	text-decoration: none;
+}
+
+/***************************************************nosotros*****************************************************/
+.cont{
+	display: flex;
+	text-align: right;
+}
+
+.cont .text-center{
+	font-family: 'Exo', sans-serif;
+}
+
+.columna{
+	text-shadow: 3px 3px 3px black;
+	text-align: center;
+	width: 33.33%;
+	padding: 20px;
+	margin-top: 50px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 100px;
+	color: white;
+	font-family: 'Exo', sans-serif;
+	font-size: 20px;
+}
+.columna p{
+	text-shadow: 3px 3px 3px black;
+}
+
+/*******************slider carrusel-------------------------------------------------------------------*/
+.container{
+	margin-top: 50px;
+	margin-bottom: 100px;
+	padding: 50px;
+}
+.container h1{
+	text-align: center;
+	color: orange;
+	font-size: 50px;
+	font-weight: 900%;
+   	text-shadow: 3px 3px 3px black;
+   	font-family: 'Exo', sans-serif;
+}
+
+////*footer-------------------------------------------------------------------------*//////
+
+footer{
+	display: flex;
+    width: 100% 90%;
+}
+
+.contfooter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin: auto;
+    max-width: 1200;
+
+}
+
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    text-shadow: 3px 3px 3px black;  
+}
+
+.box__footer .logo img{
+    width: 180px;
+}
+
+.box__footer .slogan{
+    max-width: 350px;
+    margin-top: 1px;
+    font-weight: 500;
+    color: #fff;
+    font-size: 18px;
+}
+
+.box__footer h2{
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.box__footer a{
+	text-decoration: none;
+    margin-top: 1px;
+    color: #fff;
+    font-weight: 200;
+}
+
+.box__footer a:hover{
+    opacity: 0.8;
+}
+
+.box__footer a .fab{
+    font-size: 20px;
+}
+
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.box__copyright p{
+    margin-top: 20px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.box__copyright hr{
+    border: none;
+    height: 1px;
+    background-color: #fff;
+}
+/**********************************************contacto*****************************************************/
+
+.form{
+	width: 450px;
+	background: #172a3a;
+	padding: 30px;
+	margin: auto;
+	margin-left: px;
+	margin-top:50px;
+	margin-bottom: 200px;
+	border-radius: 4px;
+	font-family: 'Exo', sans-serif;
+	color: white;
+	box-shadow: 7px 13px 37px #000;
+	opacity: .9;
+
+}
+.form h2{
+	font-size: 22px;
+	margin-bottom: 20px;
+	text-align: center;
+	border-bottom: 1px solid;
+	padding: 3px;
+}
+
+
+
+.form-control{
+	width: 100%;
+	background: white;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 16px;
+	border: 1px solid #1f53c5;
+	font-family: 'Exo', sans-serif;
+	font-size: 18px;
+}
+.form-buttom{
+	width: 100%;
+	background: orange;
+	border: none;
+	border-radius: 15px;
+	padding: 12px;
+	color: white;
+	margin: px 0;
+	font-size: 16px;
+	box-shadow: 3px 3px 3px  black;
+}
+
+.parrafo{
+	text-align: center;
+}
+.parrafo p a{
+	color: white;
+	text-decoration: none;
+}
+
+.error img{
+
+	background-size: 100%;
+	
+}
+.error a{
+	width: 500px;
+	height:;
+	border-radius: 15px;
+	padding:15px;
+	font-size: bold;
+	width: 300px;
+	position: absolute;
+	bottom:20em;
+	Left:10em;
+	border-radius:1.5em;
+	padding:1em 1.5em;
+	font-family: 'Exo', sans-serif;
+}
+/*----------------------------Tabla-------------------------*/
+.Registroventas1{
+	color: white;
+	font-size: 18px;
+	padding: 20px;
+
+}
+.table{
+	color: white;
+}
+table th{
+	color: white;
+}
+table>tbody>tr>th{
+	vertical-align: middle !important;
+}
+btn-group, .btn-group-vertical{
+	position: absolute !important;
+}
+/*--------------------------------------------------productos--------------------------*/
+.productos{
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-right:20px ;
+	margin-left: 20px;
+	width: 33.33%;
+	padding: 15px;
+	color:white;
+	font-family: 'Exo', sans-serif;
+	font-size: 20px;
+	text-shadow: 3px 3 px 3px black;
+}
+.productos h1{
+	padding: 20px 0;
+}
+
+.productos img{
+	width: 80%;
+	 border-radius: 5%;
+	  background: rgba(0,0,0,0.7);
+        padding: 5px 5px;
+        color: white;
+        transition: all 0.50s ease-out;
+     
+    }
+
+.productos img:hover{
+        transform: scale(1.15, 1.7);
+        opacity: 1;
+        border-radius: 5%;
+}
+.productos1{
+	text-align: center;
+	margin-top: px;
+	margin-bottom: 200px;
+	margin-right:20px ;
+	margin-left: 20px;
+	width: 33.33%;
+	padding: 15px;
+	color: white;
+	font-family: 'Exo', sans-serif;
+	font-size: 20px;
+	text-shadow: 3px 3 px 3px black;
+}
+.productos1 h1{
+	padding: 20px 0;
+}
+
+.productos1 img{
+	border-radius: 5%;
+       width: 80%;
+        background: rgba(0,0,0,0.7);
+        padding: 5px 5px;
+        color: white;
+        transition: all 0.5s ease-out;
+    }
+
+.productos1 img:hover{
+        transform: scale(1.15, 1.7);
+        opacity: 1;
+}
+.cont img{
+
+	margin: 10px;
+	box-shadow: 7px 13px 37px #000;
+}
+---------------------------------------------------------------
+---------------------------------------------------------------------------
+--------------------------------------------------------------------------plantas
+
+h1 {
+  color: #fff;
+}
+.planta-cont{
+  columns: 5 200px;
+  column-gap: 1.5rem;
+  width:90%;
+  margin: 0 auto;
+}
+.planta-cont div{
+	background: orange;
+    width: 150px;
+    margin: 0 1.5rem 1.5rem 0;
+    display: inline-block;
+    width: 100%;
+    border: solid 2px black;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    transition: all .50s ease-in-out;
+}    
+.planta-cont img:hover{
+      filter: grayscale(0);
+}      
+   
+.planta-cont img{
+	width: 100%;
+	filter: grayscale(100%);
+	border-top-left-radius: 50% 0%;
+	border-top-right-radius: 50% 0%;
+	border-bottom-right-radius: 50% 50%;
+	border-bottom-left-radius: 50% 0%;
+	transition: all .25s ease-in-out;
+}
+   
+.planta-cont p{ 
+      margin: 5px 0;
+      padding: 2px;
+      text-align: center;
+      font-style: italic;
+      color: #fff;
+}
